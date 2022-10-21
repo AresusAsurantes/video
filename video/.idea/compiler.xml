@@ -8,12 +8,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="config-service" />
-        <module name="user-service" />
         <module name="common" />
-        <module name="eureka-server" />
         <module name="video-service" />
         <module name="gateway-service" />
+        <module name="base-service" />
+        <module name="user-service" />
+        <module name="eureka-server" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="security-service" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
